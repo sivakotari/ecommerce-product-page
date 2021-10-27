@@ -63,6 +63,8 @@ export default {
     transform: translate(-50%, 0);
     border-radius: rem(10);
     box-shadow: 0 2px 10px 2px gray;
+    background-color: var(--white);
+    z-index: 998;
   }
 
   .popover__header{
