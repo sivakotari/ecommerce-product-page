@@ -55,6 +55,8 @@ export default {
   methods: {
     btnClickHandler() {
       this.addToCart({product: this.product, quantity: this.count})
+      this.count = 0;
+      
     }
   }
 }
